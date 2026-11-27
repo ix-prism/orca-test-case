@@ -1,0 +1,42 @@
+{
+  "bbl_append_tcr_exit": 4294967196,
+  "bbl_append_tcr_layer_z_error": true,
+  "bbl_append_tcr_stderr_tail": "Failed to generate G-code for invalid custom G-code.\n\nfilament_end_gcode Parsing error at line 1: Not a variable name\n; DIAG_LAYER_Z={layer_z}\n                ^\n\nPlease check the custom G-code or use the default custom G-code.\n",
+  "bbl_append_tcr_diag_count": 0,
+  "u1_append_tcr2_ctrl_exit": 0,
+  "u1_append_tcr2_ctrl_diag_count": 22,
+  "u1_append_tcr2_ctrl_sample": [
+    {
+      "line_no": 351,
+      "layer_idx": 1,
+      "planned_z": 0.25,
+      "value": "0.25",
+      "raw": "; DIAG_LAYER_Z=0.25"
+    },
+    {
+      "line_no": 1951,
+      "layer_idx": 2,
+      "planned_z": 0.45,
+      "value": "0.45",
+      "raw": "; DIAG_LAYER_Z=0.45"
+    },
+    {
+      "line_no": 3194,
+      "layer_idx": 3,
+      "planned_z": 0.65,
+      "value": "0.65",
+      "raw": "; DIAG_LAYER_Z=0.65"
+    }
+  ],
+  "verdict": "REPRODUCED",
+  "case_id": "M-364",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-364 (PR #14462)",
+  "wall_ms": 4819.5,
+  "inputs": [
+    "m364_two_cubes.3mf"
+  ],
+  "outputs": [
+    "m364_u1_multi_ctrl.gcode.3mf"
+  ]
+}

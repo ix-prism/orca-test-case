@@ -1,0 +1,48 @@
+{
+  "case_id": "M-313",
+  "lane": "desktop-gui-bridge",
+  "ref": "Feishu M-313 (PR #13179)",
+  "cpu_legacy_custom_arc_exp": {
+    "slice_result_valid": true,
+    "toolpath_outside": true,
+    "active_notifications": [
+      "",
+      "Slice ok.",
+      "Object name: box_454012915153aa2c.stl\nSize: 24 x 24 x 4 mm\nVolume: 2304 mm³\nTriangles: 12\n<Error></Error>",
+      "Error:\nA G-code path goes beyond the plate boundaries."
+    ],
+    "load_toolpaths_logs": []
+  },
+  "cpu_legacy_custom_linear_ctrl": {
+    "slice_result_valid": true,
+    "toolpath_outside": false,
+    "active_notifications": [
+      "",
+      "Slice ok.",
+      "Object name: box_454012915153aa2c.stl\nSize: 24 x 24 x 4 mm\nVolume: 2304 mm³\nTriangles: 12\n<Error></Error>"
+    ],
+    "load_toolpaths_logs": [
+      "[info]\t2026-11-27 11:56:48.211854[Thread 0x0000f67c]:Slic3r::GUI::GCodeViewer::load_toolpaths,m_paths_bounding_box {-32.0238, -7.02587}-{146.79, 146.79}",
+      "[info]\t2026-11-27 11:56:48.211854[Thread 0x0000f67c]:Slic3r::GUI::GCodeViewer::load_toolpaths,m_contained_in_bed 0",
+      "[info]\t2026-11-27 11:57:04.762728[Thread 0x0000f67c]:Slic3r::GUI::GCodeViewer::load_toolpaths,m_paths_bounding_box {123.21, 123.21}-{146.79, 146.79}"
+    ]
+  },
+  "gpu_loader_custom_arc_ctrl": {
+    "slice_result_valid": true,
+    "toolpath_outside": false,
+    "active_notifications": [
+      "",
+      "Slice ok.",
+      "Object name: box_454012915153aa2c.stl\nSize: 24 x 24 x 4 mm\nVolume: 2304 mm³\nTriangles: 12\n<Error></Error>"
+    ]
+  },
+  "verdict": "REPRODUCED",
+  "wall_ms": 60360.6,
+  "inputs": [
+    "box_454012915153aa2c.stl"
+  ],
+  "outputs": [
+    "m313_cpu_custom_arc.gcode.3mf",
+    "m313_cpu_custom_arc_preview.png"
+  ]
+}

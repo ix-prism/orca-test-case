@@ -1,0 +1,66 @@
+{
+  "experiment_unused_ext2": {
+    "tag": "unused_ext2_0.16",
+    "max_layer_height": [
+      0.28,
+      0.16,
+      0.28,
+      0.28
+    ],
+    "slice_result_valid": false,
+    "has_wipe_tower": false,
+    "prime_tower_layer_height_error": true,
+    "active_notifications": [
+      "",
+      "Slice ok.",
+      "Object name: multi_cube_grid_89be866522f8a6b5_part1.stl\nSize: 18 x 18 x 6 mm\nVolume: 1944 mm³\nTriangles: 12\n",
+      "Error:\nThe prime tower requires that all objects are sliced with the same layer heights."
+    ]
+  },
+  "control_unused_ext4": {
+    "tag": "unused_ext4_0.16",
+    "max_layer_height": [
+      0.28,
+      0.28,
+      0.28,
+      0.16
+    ],
+    "slice_result_valid": true,
+    "has_wipe_tower": true,
+    "prime_tower_layer_height_error": false,
+    "active_notifications": [
+      "",
+      "Slice ok.",
+      "Object name: multi_cube_grid_89be866522f8a6b5_part1.stl\nSize: 18 x 18 x 6 mm\nVolume: 1944 mm³\nTriangles: 12\n"
+    ]
+  },
+  "control_active_ext3": {
+    "tag": "active_ext3_0.16",
+    "max_layer_height": [
+      0.28,
+      0.28,
+      0.16,
+      0.28
+    ],
+    "slice_result_valid": true,
+    "has_wipe_tower": true,
+    "prime_tower_layer_height_error": false,
+    "active_notifications": [
+      "",
+      "Slice ok.",
+      "Object name: multi_cube_grid_89be866522f8a6b5_part1.stl\nSize: 18 x 18 x 6 mm\nVolume: 1944 mm³\nTriangles: 12\n"
+    ]
+  },
+  "verdict": "REPRODUCED",
+  "case_id": "V25-293",
+  "lane": "desktop-gui-bridge",
+  "ref": "Feishu V25-293 (PR #17000)",
+  "wall_ms": 17863.8,
+  "inputs": [
+    "multi_cube_grid_89be866522f8a6b5.stl",
+    "multi_cube_grid_89be866522f8a6b5_part1.stl"
+  ],
+  "outputs": [
+    "v25_293_false_error.png"
+  ]
+}

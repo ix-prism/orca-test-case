@@ -1,0 +1,48 @@
+{
+  "thin_boss_z520_partiallybridge": {
+    "outer_wall_moves": 40,
+    "outer_wall_len_mm": 21.65,
+    "inner_wall_moves": 0,
+    "inner_wall_len_mm": 0,
+    "bridge_moves": 43,
+    "bridge_len_mm": 141.88
+  },
+  "thin_boss_z520_none_ctrl": {
+    "outer_wall_moves": 65,
+    "outer_wall_len_mm": 37.56,
+    "inner_wall_moves": 65,
+    "inner_wall_len_mm": 35.09,
+    "bridge_moves": 105,
+    "bridge_len_mm": 156.62
+  },
+  "circular_counterbore_long_spans": 25,
+  "circular_counterbore_floating_long_count": 2,
+  "circular_counterbore_floating_sample": [
+    {
+      "len_mm": 5.48,
+      "r0_past_bore_mm": 0.949,
+      "r1_past_bore_mm": -3.311,
+      "z": 5.2
+    },
+    {
+      "len_mm": 5.29,
+      "r0_past_bore_mm": -3.311,
+      "r1_past_bore_mm": 0.776,
+      "z": 5.2
+    }
+  ],
+  "verdict": "REPRODUCED",
+  "case_id": "M-322",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-322 (PR #13052)",
+  "wall_ms": 8152.3,
+  "inputs": [
+    "thin_counterbore_boss_eb9c56f5837b3f0d.stl",
+    "counterbore_block_3522290db2fa419d.stl"
+  ],
+  "outputs": [
+    "m322_boss_partial.gcode.3mf",
+    "m322_boss_none.gcode.3mf",
+    "m322_circ_partial.gcode.3mf"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "config_mismatches": [],
+  "exp_m106_p3_count": 2,
+  "exp_m106_p3_events": [
+    {
+      "line_no": 142,
+      "layer_idx": 0,
+      "pwm": 178,
+      "raw": "M106 P3 S178"
+    },
+    {
+      "line_no": 4016,
+      "layer_idx": 30,
+      "pwm": 229,
+      "raw": "M106 P3 S229"
+    }
+  ],
+  "ctrl_m106_p3_count": 0,
+  "verdict": "REPRODUCED",
+  "case_id": "M-348",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-348 (PR #13868)",
+  "wall_ms": 5533.4,
+  "inputs": [
+    "box_1d6d5c13a937c6db.stl"
+  ],
+  "outputs": [
+    "m348_exp_no_hw.gcode.3mf",
+    "m348_ctrl_off.gcode.3mf"
+  ]
+}

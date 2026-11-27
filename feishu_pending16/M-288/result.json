@@ -1,0 +1,121 @@
+{
+  "exit_180": 0,
+  "exit_100": 0,
+  "config_mismatches_180": [],
+  "spacing_180": {
+    "triggered": true,
+    "axis": "Y",
+    "layer1_wipe_moves": 70,
+    "scanlines": 68,
+    "median_spacing_mm": 0.5,
+    "max_spacing_mm": 0.7,
+    "max_gap_mm": 0.2,
+    "spacings_sample": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "spacing_100": {
+    "triggered": true,
+    "axis": "Y",
+    "layer1_wipe_moves": 53,
+    "scanlines": 51,
+    "median_spacing_mm": 0.5,
+    "max_spacing_mm": 0.5,
+    "max_gap_mm": 0.0,
+    "spacings_sample": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  "verdict": "REPRODUCED",
+  "case_id": "M-288",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-288 (PR #12491)",
+  "wall_ms": 5233.7,
+  "inputs": [
+    "m288_three_cubes.3mf"
+  ],
+  "outputs": [
+    "m288_gui_100.gcode.3mf",
+    "m288_gui_180.gcode.3mf",
+    "m288_gui_preview.png",
+    "m288_spacing100.gcode.3mf",
+    "m288_spacing180.gcode.3mf",
+    "m288_gui_180.gcode.3mf",
+    "m288_gui_100.gcode.3mf",
+    "m288_gui_preview.png"
+  ],
+  "gui_crosscheck": {
+    "lane": "desktop-gui-bridge",
+    "has_wipe_tower_180": true,
+    "has_wipe_tower_100": true,
+    "spacing_180": {
+      "triggered": true,
+      "axis": "Y",
+      "layer1_wipe_moves": 70,
+      "scanlines": 68,
+      "median_spacing_mm": 0.5,
+      "max_spacing_mm": 0.6,
+      "max_gap_mm": 0.1,
+      "spacings_sample": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "spacing_100": {
+      "triggered": true,
+      "axis": "Y",
+      "layer1_wipe_moves": 52,
+      "scanlines": 50,
+      "median_spacing_mm": 0.5,
+      "max_spacing_mm": 0.5,
+      "max_gap_mm": 0.0,
+      "spacings_sample": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "verdict": "REPRODUCED"
+  }
+}

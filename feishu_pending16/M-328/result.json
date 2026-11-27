@@ -1,0 +1,30 @@
+{
+  "organic_build_plate_only": {
+    "support_moves": 16716,
+    "interface_moves": 129,
+    "interface_len_mm": 360.679
+  },
+  "organic_everywhere_ctrl": {
+    "support_moves": 31122,
+    "interface_moves": 156,
+    "interface_len_mm": 1071.415
+  },
+  "tree_slim_build_plate_only_ctrl": {
+    "support_moves": 41182,
+    "interface_moves": 1021,
+    "interface_len_mm": 2647.726
+  },
+  "verdict": "REPRODUCED",
+  "case_id": "M-328",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-328 (PR #13192)",
+  "wall_ms": 9527.6,
+  "inputs": [
+    "stepped_overhang_pedestal_227cd24b3c08d982.stl"
+  ],
+  "outputs": [
+    "m328_organic_bp_only.gcode.3mf",
+    "m328_organic_everywhere.gcode.3mf",
+    "m328_slim_bp_only.gcode.3mf"
+  ]
+}

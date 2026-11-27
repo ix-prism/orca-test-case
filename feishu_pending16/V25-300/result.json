@@ -1,0 +1,56 @@
+{
+  "patterns": {
+    "tpmsd": {
+      "exit_code": 0,
+      "fragmentation": {
+        "triggered": true,
+        "infill_layers": 32,
+        "total_polylines": 129,
+        "avg_polylines_per_layer": 4.03,
+        "total_travel_breaks": 97,
+        "intra_infill_jump_mm": 890.45,
+        "near_boundary_splits": 0,
+        "avg_near_splits_per_layer": 0.0
+      }
+    },
+    "tpmsfk": {
+      "exit_code": 0,
+      "fragmentation": {
+        "triggered": true,
+        "infill_layers": 32,
+        "total_polylines": 337,
+        "avg_polylines_per_layer": 10.53,
+        "total_travel_breaks": 305,
+        "intra_infill_jump_mm": 2011.65,
+        "near_boundary_splits": 10,
+        "avg_near_splits_per_layer": 0.31
+      }
+    },
+    "gyroid": {
+      "exit_code": 0,
+      "fragmentation": {
+        "triggered": true,
+        "infill_layers": 32,
+        "total_polylines": 108,
+        "avg_polylines_per_layer": 3.38,
+        "total_travel_breaks": 76,
+        "intra_infill_jump_mm": 1125.13,
+        "near_boundary_splits": 0,
+        "avg_near_splits_per_layer": 0.0
+      }
+    }
+  },
+  "verdict": "REPRODUCED",
+  "case_id": "V25-300",
+  "lane": "desktop-cli",
+  "ref": "Feishu V25-300 (PR #17334)",
+  "wall_ms": 9035.7,
+  "inputs": [
+    "cylinder_arc_70a6f6a2f201d5a6.stl"
+  ],
+  "outputs": [
+    "v25_300_tpmsd.gcode.3mf",
+    "v25_300_tpmsfk.gcode.3mf",
+    "v25_300_gyroid.gcode.3mf"
+  ]
+}

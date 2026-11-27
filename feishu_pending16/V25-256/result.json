@@ -1,0 +1,61 @@
+{
+  "only_one_wall_top_on": {
+    "tube_y_min_filter": 125.96,
+    "layers": {
+      "z_4.80": {
+        "inner_wall_moves": 19,
+        "inner_wall_len_mm": 75.0,
+        "outer_wall_moves": 10,
+        "outer_wall_len_mm": 167.33
+      },
+      "z_5.00": {
+        "inner_wall_moves": 5,
+        "inner_wall_len_mm": 0.32,
+        "outer_wall_moves": 25,
+        "outer_wall_len_mm": 150.56
+      },
+      "z_5.20": {
+        "inner_wall_moves": 19,
+        "inner_wall_len_mm": 75.0,
+        "outer_wall_moves": 10,
+        "outer_wall_len_mm": 152.27
+      }
+    }
+  },
+  "only_one_wall_top_off_ctrl": {
+    "tube_y_min_filter": 125.96,
+    "layers": {
+      "z_4.80": {
+        "inner_wall_moves": 19,
+        "inner_wall_len_mm": 75.0,
+        "outer_wall_moves": 10,
+        "outer_wall_len_mm": 167.33
+      },
+      "z_5.00": {
+        "inner_wall_moves": 19,
+        "inner_wall_len_mm": 75.0,
+        "outer_wall_moves": 10,
+        "outer_wall_len_mm": 167.33
+      },
+      "z_5.20": {
+        "inner_wall_moves": 19,
+        "inner_wall_len_mm": 75.0,
+        "outer_wall_moves": 10,
+        "outer_wall_len_mm": 152.27
+      }
+    }
+  },
+  "z500_inner_wall_retention_ratio": 0.0043,
+  "verdict": "REPRODUCED",
+  "case_id": "V25-256",
+  "lane": "desktop-cli",
+  "ref": "Feishu V25-256 (PR #16174)",
+  "wall_ms": 5717.6,
+  "inputs": [
+    "narrow_tube_with_step_930c41dfc26a8004.stl"
+  ],
+  "outputs": [
+    "v25_256_one_wall_on.gcode.3mf",
+    "v25_256_one_wall_off.gcode.3mf"
+  ]
+}

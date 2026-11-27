@@ -1,0 +1,66 @@
+{
+  "sacrificiallayer_w2": {
+    "z_5.00": {
+      "outer_wall_moves": 129,
+      "outer_wall_len_mm": 70.22,
+      "inner_wall_moves": 0,
+      "inner_wall_len_mm": 0,
+      "bridge_moves": 0,
+      "bridge_len_mm": 0
+    },
+    "z_5.20": {
+      "outer_wall_moves": 0,
+      "outer_wall_len_mm": 0,
+      "inner_wall_moves": 0,
+      "inner_wall_len_mm": 0,
+      "bridge_moves": 72,
+      "bridge_len_mm": 291.56
+    },
+    "z_5.40": {
+      "outer_wall_moves": 129,
+      "outer_wall_len_mm": 54.52,
+      "inner_wall_moves": 129,
+      "inner_wall_len_mm": 54.52,
+      "bridge_moves": 0,
+      "bridge_len_mm": 0
+    }
+  },
+  "none_w2_ctrl": {
+    "z_5.00": {
+      "outer_wall_moves": 129,
+      "outer_wall_len_mm": 70.22,
+      "inner_wall_moves": 0,
+      "inner_wall_len_mm": 0,
+      "bridge_moves": 0,
+      "bridge_len_mm": 0
+    },
+    "z_5.20": {
+      "outer_wall_moves": 65,
+      "outer_wall_len_mm": 37.56,
+      "inner_wall_moves": 65,
+      "inner_wall_len_mm": 35.09,
+      "bridge_moves": 105,
+      "bridge_len_mm": 156.62
+    },
+    "z_5.40": {
+      "outer_wall_moves": 128,
+      "outer_wall_len_mm": 54.52,
+      "inner_wall_moves": 128,
+      "inner_wall_len_mm": 54.52,
+      "bridge_moves": 0,
+      "bridge_len_mm": 0
+    }
+  },
+  "verdict": "REPRODUCED",
+  "case_id": "M-324",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-324 (PR #13018)",
+  "wall_ms": 5435.0,
+  "inputs": [
+    "thin_counterbore_boss_eb9c56f5837b3f0d.stl"
+  ],
+  "outputs": [
+    "m324_boss_sacrificial_w2.gcode.3mf",
+    "m324_boss_none_w2.gcode.3mf"
+  ]
+}
