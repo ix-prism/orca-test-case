@@ -1,0 +1,77 @@
+{
+  "u1_rcw1_wipe0_exp": {
+    "exit_code": 0,
+    "support_z_checked": 102160,
+    "wrong_z_total_segments": 724,
+    "wrong_z_layers": [
+      64,
+      74,
+      547
+    ],
+    "wrong_z_sample": [
+      {
+        "layer_idx": 64,
+        "role": "Support",
+        "actual_z": 6.44,
+        "planned_z": 6.56,
+        "line_no": 69753
+      },
+      {
+        "layer_idx": 64,
+        "role": "Support",
+        "actual_z": 6.44,
+        "planned_z": 6.56,
+        "line_no": 69754
+      },
+      {
+        "layer_idx": 64,
+        "role": "Support",
+        "actual_z": 6.44,
+        "planned_z": 6.56,
+        "line_no": 69755
+      },
+      {
+        "layer_idx": 64,
+        "role": "Support",
+        "actual_z": 6.44,
+        "planned_z": 6.56,
+        "line_no": 69756
+      },
+      {
+        "layer_idx": 64,
+        "role": "Support",
+        "actual_z": 6.44,
+        "planned_z": 6.56,
+        "line_no": 69757
+      },
+      {
+        "layer_idx": 64,
+        "role": "Support",
+        "actual_z": 6.44,
+        "planned_z": 6.56,
+        "line_no": 69758
+      }
+    ],
+    "same_xy_layer_transitions": 29
+  },
+  "u1_rcw0_wipe0_ctrl": {
+    "exit_code": 0,
+    "support_z_checked": 98179,
+    "wrong_z_total_segments": 0,
+    "wrong_z_layers": [],
+    "wrong_z_sample": [],
+    "same_xy_layer_transitions": 23
+  },
+  "verdict": "REPRODUCED",
+  "case_id": "M-312",
+  "lane": "desktop-cli",
+  "ref": "Feishu M-312 (PR #13327, #13460)",
+  "wall_ms": 49058.5,
+  "inputs": [
+    "Stanford_Bunny.3mf"
+  ],
+  "outputs": [
+    "m312_u1_rcw1_wipe0.gcode.3mf",
+    "m312_u1_rcw0_ctrl.gcode.3mf"
+  ]
+}
